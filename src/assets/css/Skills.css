@@ -1,0 +1,150 @@
+.skills-section {
+    padding: 40px;
+    background-color: #282c34;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.skills-section:hover {
+    background-color: #f0f0f0;
+}
+
+.skills-section .section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #C7AE6A;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.progress-bar {
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar-html {
+    background: linear-gradient(to right, #c02919, #c0392b);
+}
+
+.progress-bar-css {
+    background: linear-gradient(to right, #104c74, #2980b9);
+}
+
+.progress-bar-php {
+    background: linear-gradient(to right, #8e16c2, #9b59b6);
+}
+
+.progress-bar-wordpress {
+    background: linear-gradient(to right, #0d4469, #8ab6d3);
+}
+
+.progress-bar-java {
+    background: linear-gradient(to right, #5022e6, #8f93b7);
+}
+
+.progress-bar-mongodb {
+    background: linear-gradient(to right, #27ae60, #219250);
+}
+
+.progress-bar-figma {
+    background: linear-gradient(to right, #e61763, #c31f38);
+}
+
+.progress-bar-trello {
+    background: linear-gradient(to right, #cd137c, #64345b);
+}
+
+.progress-bar-react {
+    background: linear-gradient(to right, #1498bc, #12485b);
+}
+
+.progress-bar-english {
+    background: linear-gradient(to right, #bc790d, #cc925f);
+}
+
+.progress-bar-spanish {
+    background: linear-gradient(to right, #ab2718, #95645e);
+}
+
+.progress-bar-romanian {
+    background: linear-gradient(to right, #833b9f, #b690c6);
+}
+
+.progress-bar-french {
+    background: linear-gradient(to right, rgb(8, 77, 8), #1f7764);
+}
+
+.progress-bar-serbian {
+    background: linear-gradient(to right, #12e76b, #075126);
+}
+
+.progress-bar-german {
+    background: linear-gradient(to right, #752017, #ec7769);
+}
+
+.progress-bar .skill {
+    color: white;
+    font-size: 1.2em;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.progress-bar .skill i.val {
+    font-style: normal;
+    padding-right: 15px;
+}
+
+.progress-bar .skill svg {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-section {
+        padding: 10px;
+    }
+
+    .skills-section .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .progress-bar {
+        height: 50px;
+        margin-bottom: 8px;
+    }
+
+    .progress-bar .skill {
+        font-size: 1.1em;
+        padding-left: 10px;
+    }
+
+    .progress-bar .skill i.val {
+        padding-right: 10px;
+    }
+
+    .progress-bar .skill svg {
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .progress-bar .skill {
+        font-size: 1em;
+    }
+}

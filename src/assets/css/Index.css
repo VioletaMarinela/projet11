@@ -1,0 +1,154 @@
+.main-structure {
+    width: 100%;
+    border: none;
+    position: relative;
+    box-shadow: none;
+    background: linear-gradient(-65deg, #d5c28f, #b99a45, #C7AE6A, #424242);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.content-area {
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 28px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-area>* {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.navigation-area {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    position: relative;
+    align-self: center;
+    margin-bottom: 20px;
+    transform: inherit;
+    transition: all 0.2s ease;
+    left: 0;
+}
+
+.social-icons:hover {
+    left: 0;
+}
+
+.social-icons a {
+    border: none;
+    padding: 0;
+    color: #292929;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons span {
+    color: #292929;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.social-text {
+    letter-spacing: 2px;
+    font-size: 80px;
+    margin-right: 10px;
+    color: #292929;
+    width: 200px;
+    content: url("../img/github.svg");
+}
+
+.social-icons a:nth-child(1) {
+    margin-right: 20px;
+}
+
+.social-icons a:nth-child(2) {
+    margin-left: 0;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #292929;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 10px 50px;
+    width: 100%;
+    font-size: 20px;
+    transition: all 0.15s ease;
+    text-align: center;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #292929;
+    color: #C7AE6A;
+}
+
+.active {
+    background-color: #292929 !important;
+    color: #C7AE6A;
+}
+
+.section-title {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #C7AE6A;
+    opacity: 0.95;
+    text-align: center;
+}

@@ -1,0 +1,138 @@
+.contact-section {
+    padding: 40px;
+    background-color: #282c34;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section:hover {
+    background-color: #f0f0f0;
+}
+
+.contact-section .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #C7AE6A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #282c34;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.text-contact {
+    text-align: center;
+    color: #C7AE6A;
+    margin-bottom: 25px;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #C7AE6A;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #C7AE6A;
+    box-shadow: 0 0 5px rgba(199, 174, 106, 0.5);
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    height: 45px;
+    margin: 30px auto 0;
+    background-color: #C7AE6A;
+    border: none;
+    color: #292929;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.contact-form button:hover {
+    background-color: #292929;
+    color: #C7AE6A;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-form p {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contact-form label {
+        margin-bottom: 0;
+        width: 30%;
+        text-align: left;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 300%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-section {
+        padding: 40px 15px;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .text-contact {
+        font-size: 1rem;
+    }
+}

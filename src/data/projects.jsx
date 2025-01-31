@@ -1,0 +1,36 @@
+export const data = [
+    {
+        id: 1,
+        name: "Ohmyfood",
+        date: "Juin, 2024",
+        live: "https://violetamarinela.github.io/OhmyfoodsP4/",
+        image: "./img/ohmyfood.webp",
+        description: "Consite à intégrer l'interface du site d'Ohmyfood en commençant par la version mobile.",
+        competences: "Intégrer une maquette en mobile-first, mettre en œuvre des animations CSS et versionner son projet avec Git et Github ",
+        tags: "HTML, Sass, Responsive, VSCode, Figma, Git, GitHub",
+        pro: true,
+    },
+    {
+        id: 2,
+        name: "Print IT JS",
+        date: "Juliet, 2024",
+        live: "https://violetamarinela.github.io/Print-it-JS-P5/",
+        image: "./img/printit.webp",
+        description: "Optimisation du site avec redimensionnement et conversion des images, balises sémantiques, hiérarchisation des titres, balises meta, minification des fichiers CSS et JS, versions minifiées de Bootstrap et JQuery, et chargement différé des scripts pour améliorer les performances et le référencement.",
+        competences: "Programmer en utilisant les fondamentaux de JavaScript",
+        tags: "HTML, CSS, WAVE",
+        pro: true,
+    },
+
+    {
+        id: 3,
+        name: "Nina Carducci",
+        date: "Octobre, 2024",
+        live: "https://violetamarinela.github.io/Projet8_NinaCarducci/",
+        image: "./img/ninacarducci.webp",
+        description: "Le projet 5 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage JavaScript au travers du site de Print It.",
+        competences: "Programmer en utilisant les fondamentaux de JavaScript",
+        tags: "HTML, CSS, JavaScript, VSCode",
+        pro: true,
+    },
+];
