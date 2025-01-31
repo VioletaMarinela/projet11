@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/projet11/static/css/main.17d4ed63.css",
+    "main.js": "/projet11/static/js/main.2d01e692.js",
+    "static/media/portret.webp": "/projet11/static/media/portret.c2a1d10d7a71c6870176.webp",
+    "static/media/ninacarducci.webp": "/projet11/static/media/ninacarducci.08fe6c90eb02fb1066d8.webp",
+    "static/media/printit.webp": "/projet11/static/media/printit.4c0d891cdfea36991735.webp",
+    "static/media/ohmyfood.webp": "/projet11/static/media/ohmyfood.59c7aa6b6333905f27d0.webp",
+    "static/media/logobanner.webp": "/projet11/static/media/logobanner.3220d40f452765b02414.webp",
+    "static/media/logoblackwhite.webp": "/projet11/static/media/logoblackwhite.49001cbffb1097d8a9e6.webp",
+    "static/media/logo.webp": "/projet11/static/media/logo.9d52a195f10ff544c978.webp",
+    "static/media/github.svg": "/projet11/static/media/github.f2d8ef9cea5e13236d09.svg",
+    "index.html": "/projet11/index.html",
+    "main.17d4ed63.css.map": "/projet11/static/css/main.17d4ed63.css.map",
+    "main.2d01e692.js.map": "/projet11/static/js/main.2d01e692.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17d4ed63.css",
+    "static/js/main.2d01e692.js"
+  ]
+}
